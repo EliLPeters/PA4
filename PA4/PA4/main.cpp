@@ -22,6 +22,7 @@ void traverse(node* thingy)
 		while (answer != "yes" && answer != "no")
 		{
 			cout << "Sorry, I didn't understand what you said. (yes/no)" << endl;
+			cin >> answer;
 		}
 		if (answer == "yes")
 		{
@@ -40,6 +41,7 @@ void traverse(node* thingy)
 		while (answer != "yes" && answer != "no")
 		{
 			cout << "Sorry, I didn't understand what you said. (yes/no)" << endl;
+			cin >> answer;
 		}
 		if (answer == "yes")
 		{
